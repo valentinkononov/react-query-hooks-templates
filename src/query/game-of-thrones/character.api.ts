@@ -20,5 +20,6 @@ export const getAll = async ({
 export const patchOne = async (payload: Character): Promise<unknown> => {
   console.log("[API]: Ready to patch Character!");
   const { data } = await axios.patch(`/api/characters/${payload.id}`, payload);
+  console.log("[API]: PATCH COMPLETED!");
   return data;
 };

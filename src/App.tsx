@@ -6,10 +6,7 @@ import {
   usePatchCharacter,
 } from "./query/game-of-thrones/character.query";
 import { houseQueryIds, useHouses } from "./query/game-of-thrones/house.query";
-
-// this should be defined somewhere in the top, once per application or module
-// level of caching and data scope management
-const queryClient = new QueryClient();
+import { queryClient } from "./query";
 
 /*
     // some options for useQuery

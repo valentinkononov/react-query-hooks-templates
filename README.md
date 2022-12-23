@@ -2,6 +2,8 @@
 
 > React part of this project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Link: https://tanstack.com/query/v4/docs/overview 
+
 ## Content
 
 * Basic case - load data, get endpoint
@@ -12,3 +14,4 @@
 * sequential queries
 * Mutation samples
 * Update / Invalidate ids
+* add React.useCallback for select
